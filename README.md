@@ -29,10 +29,14 @@
   </head>
 
   <body>
+   <body style="background-color:rgb(0, 43, 54) ;"></body>
     <!-- Here is our main header that is used across all the pages of our website -->
 
     <header>
+      <header style=" background-color: rgb(7, 54, 66) ;">
+      <p style="color:  rgb(131,148,150);"
       <h1>Header</h1>
+  
     </header>
 
     <nav>
@@ -53,6 +57,7 @@
 
     <!-- Here is our page's main content -->
     <main>
+      <main <p style="color: rgb(131,148,150);"
 
       <!-- It contains an article -->
       <article>
@@ -86,11 +91,15 @@
         </ul>
       </aside>
 
+      
     </main>
 
     <!-- And here is our main footer that is used across all the pages of our website -->
 
     <footer>
+      <footer style=" background-color: rgb(7, 54, 66) ;">
+      <p style="color:  rgb(131,148,150);" 
+
       <p>©Copyright 2050 by nobody. All rights reversed.</p>
     </footer>
 
