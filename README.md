@@ -52,11 +52,12 @@ a:hover {
 
     <nav>
       <ol align="center"
+      <ol style="color: var(--c-magenta);"
       <ol>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Our team</a></li>
-        <li><a href="#">Projects</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><b href="#">Home</a></li>
+        <li><b href="#">Our team</a></li>
+        <li><b href="#">Projects</a></li>
+        <li><b href="#">Contact</a></li>
         
       </ol>
 
@@ -74,22 +75,27 @@ a:hover {
 
       <!-- It contains an article -->
       <article>
+        <h2 style="padding-top: 50px;"
         <h2>Article heading</h2>
 
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Donec a diam lectus. Set sit amet ipsum mauris. Maecenas congue ligula as quam viverra nec consectetur ant hendrerit. Donec et mollis dolor. Praesent et diam eget libero egestas mattis sit amet vitae augue. Nam tincidunt congue enim, ut porta lorem lacinia consectetur.</p>
 <subarticle>
   <p style="border-width: 3px; border-style: solid; border-bottom: 0px; border-color:  rgb(42,161,152);"
+</subarticle>  
+  <h3 style="padding-top: 50px";
 
+  
         <h3>Subsection</h3>
-        <p style="border-width: 3px; border-style: solid;border-bottom: 0px;border-top: 0;border-bottom-left-radius: 0%; border-color:  rgb(42,161,152);"
+        <p style="border-width: 3px; border-style: solid;border-bottom: 0px;border-top: 0; border-color:  rgb(42,161,152);"
 
         <p>Donec ut librero sed accu vehicula ultricies a non tortor. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aenean ut gravida lorem. Ut turpis felis, pulvinar a semper sed, adipiscing id dolor.</p>
         <p style="border-width: 3px; border-top: 0; border-top-left-radius: 0px;border-top-right-radius: 0px; border-style: solid; border-color:  rgb(42,161,152);"
 
         <p>Pelientesque auctor nisi id magna consequat sagittis. Curabitur dapibus, enim sit amet elit pharetra tincidunt feugiat nist imperdiet. Ut convallis libero in urna ultrices accumsan. Donec sed odio eros.</p>
         <p style="border-width: 3px; border-style: solid; border-bottom: 0px; border-color:  rgb(42,161,152);"
-
-        <h3>Another subsection</h3>
+<anothersubarticle>
+        <h4 style="padding-top: 50px;"
+        <h4>Another subsection</h4>
         <p style="border-width: 3px; border-style: solid;border-bottom: 0px;border-top: 0;border-bottom-left-radius: 0%;border-color:  rgb(42,161,152);"
 
         <p>Donec viverra mi quis quam pulvinar at malesuada arcu rhoncus. Cum soclis natoque penatibus et manis dis parturient montes, nascetur ridiculus mus. In rutrum accumsan ultricies. Mauris vitae nisi at sem facilisis semper ac in est.</p>
