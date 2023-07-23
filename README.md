@@ -24,11 +24,14 @@
         --c-cyan: rgb(42,161,152);
         --c-green: rgb(133,153,0);
       }
+      ol {
+  list-style-type: none;
+}
       a:link {
-  color:  rgb(211, 54,130);
+  color: var(--c-red);
 }
 a:hover {
-  color: rgb(203, 75, 22);
+  color:var(--c-blue);
 }
     </style>
 
@@ -36,22 +39,26 @@ a:hover {
 
   <body>
    <body style="background-color:rgb(0, 43, 54) ;"></body>
+   <body style="max-width: 800px;">
     <!-- Here is our main header that is used across all the pages of our website -->
 
     <header>
       <header style=" background-color: rgb(7, 54, 66) ;">
-      <p style="color:  rgb(131,148,150);"
+      <p style="color: rgb(181,137,  0); font-size: 150%; "
+      <h1 align="center"></h1
       <h1>Header</h1>
   
     </header>
 
     <nav>
-      <ul>
+      <ol align="center"
+      <ol>
         <li><a href="#">Home</a></li>
         <li><a href="#">Our team</a></li>
         <li><a href="#">Projects</a></li>
         <li><a href="#">Contact</a></li>
-      </ul>
+        
+      </ol>
 
        <!-- A Search form is another common non-linear way to navigate through a website. -->
 
@@ -94,14 +101,21 @@ a:hover {
 
       <!-- the aside content can also be nested within the main content -->
       <aside>
+        <mini>
+          <p style="color: var(--c-green);"
         <h2>Related</h2>
 
         <ul>
+          <li style="color: var(--c-green);"
           <li><a href="#">Oh I do like to be beside the seaside</a></li>
+          <li style="color: var(--c-green);"
           <li><a href="#">Oh I do like to be beside the sea</a></li>
+          <li style="color: var(--c-green);"
           <li><a href="#">Although in the North of England</a></li>
+          <li style="color: var(--c-green);"
           <li><a href="#">It never stops raining</a></li>
-          <li><a href="#">Oh well...</a></li>
+                    <li style="color: var(--c-green);"
+<li><a href="#">Oh well...</a></li>
         </ul>
       </aside>
 
